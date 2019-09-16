@@ -1,1 +1,1 @@
-# GitTest
+# GitTest is only for testing GIT
