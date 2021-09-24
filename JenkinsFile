@@ -1,6 +1,7 @@
 Job ('Example') {
   scm {
-    git(https://github.com/vorosi/GitTest.git)  
+    git(https://github.com/vorosi/GitTest.git) {
+    }  
   }
   wrappers {
     nodejs('nodejs')
