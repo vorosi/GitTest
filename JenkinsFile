@@ -1,7 +1,12 @@
 Job ('Example') {
-
-
-
-
+  scm {
+    git(https://github.com/vorosi/GitTest)  
+  }
+  wrappers {
+    nodejs('nodejs')
+  }
+  steps {
+    shell("npm install")
+  }
 
 }
